@@ -13,7 +13,7 @@ http://school.raai.org/
 
 `conda install numpy scipy jupyter matplotlib mpmath setuptools setuptools_scm mock nose`
 
-3. Install Brian2 - simulator for biological neurons (brian2.readthedocs.io/)
+3. Install Brian2 - simulator for biological neurons (https://brian2.readthedocs.io/)
 
 `conda install -c conda-forge brian2`
 
