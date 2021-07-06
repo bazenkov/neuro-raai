@@ -5,6 +5,7 @@ http://school.raai.org/
 0. Install Anaconda 3 (https://www.anaconda.com/products/individual)
 1. Create conda environment
 `conda create --name neuro python=3.6.13`
+`conda activate neuro`
 2. Install dependencies
 `conda install numpy scipy jupyter matplotlib mpmath setuptools setuptools_scm mock nose`
 3. Install Brian2 - simulator for biological neurons (brian2.readthedocs.io/)
