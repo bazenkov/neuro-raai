@@ -13,19 +13,13 @@ http://school.raai.org/
 
 `conda install numpy scipy jupyter matplotlib mpmath setuptools setuptools_scm mock nose`
 
-3. Install Brian2 - simulator for biological neurons (https://brian2.readthedocs.io/)
+3. Install Brian2, simulator for biological neurons (https://brian2.readthedocs.io/), and OpenAI Gym (https://gym.openai.com/)
 
-`conda install -c conda-forge brian2`
+`conda install -c conda-forge brian2 gym pybox2d`
 
 4. Install excersises from Neuronal Dynamics book (https://neuronaldynamics-exercises.readthedocs.io/en/latest/setup.html)
 
 `pip install neurodynex3`
-
-5. Install OpenAI Gym (https://gym.openai.com/)
-
-`conda install -c conda-forge gym`
-
-`conda install -c conda-forge pybox2d`
 
 ## Content
 ### Seminar 1. Introduction to spiking neural networks.
