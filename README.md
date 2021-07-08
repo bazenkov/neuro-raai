@@ -27,7 +27,7 @@ http://school.raai.org/
 0. Create working directory `neuro-raai` and set it as a working directory in console
 1. Create and activate Python environment `neuro-env` (https://docs.python.org/3/tutorial/venv.html):
 
-`python3 -m venv tutorial-env`
+`python3 -m venv neuro-env`
 
 On Linux:
 
@@ -51,6 +51,7 @@ On Windows:
 `pip install neurodynex3`
 
 ## Content
+We use You can download
 ### Seminar 1. Introduction to spiking neural networks.
 ### Seminar 2. Biophysical models. Introduction to OpenAI Gym and neuromorphic control
 ### Seminar 3. Neuromorphic control. Central pattern generators.
