@@ -51,7 +51,7 @@ On Windows:
 `pip install neurodynex3`
 
 ## Content
-We use You can download
+
 ### Seminar 1. Introduction to spiking neural networks.
 ### Seminar 2. Biophysical models. Introduction to OpenAI Gym and neuromorphic control
 ### Seminar 3. Neuromorphic control. Central pattern generators.
