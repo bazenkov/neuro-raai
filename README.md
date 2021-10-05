@@ -75,10 +75,12 @@ On Windows:
 
 
 ## References
-A good introduction in biological mechanisms underlying brain functions
+A good introduction in biological mechanisms underlying brain functions:
+
 Nicolls J.G. et.al. From Neuron to Brain, 5th edition.
 
 Recent advances of neuromorphic hardware are reviewed in:
+
 Davies, M., Wild, A., Orchard, G., Sandamirskaya, Y., Guerra, G. A. F., Joshi, P., ... & Risbud, S. R. (2021). Advancing neuromorphic computing with Loihi: A survey of results and outlook. Proceedings of the IEEE, 109(5), 911-934.
 
 ### Models of biological neurons and networks
