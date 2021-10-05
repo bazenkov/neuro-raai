@@ -22,8 +22,13 @@ https://www.youtube.com/channel/UC8UsNfjhqJW1d0ryvU-p3qw
 
 
 ## Installation
+During the course we use the following software:
 
-### With Anaconda
+* Python 3 and Jupyter notebooks
+* [Brian 2](https://brian2.readthedocs.io/) for biological neural networks simulation
+* [OpenAI Gym](https://gym.openai.com/) and [OSIM-RL](osim-rl.stanford.edu/) for the control part.
+
+### Anaconda installation
 0. Install Anaconda 3 (https://www.anaconda.com/products/individual)
 1. Create conda environment
 
@@ -43,7 +48,7 @@ https://www.youtube.com/channel/UC8UsNfjhqJW1d0ryvU-p3qw
 
 `pip install neurodynex3`
 
-### With pip
+### Pip and venv installation
 
 0. Create working directory `neuro-raai` and set it as a working directory in console
 1. Create and activate Python environment `neuro-env` (https://docs.python.org/3/tutorial/venv.html):
@@ -71,4 +76,25 @@ On Windows:
 
 `pip install neurodynex3`
 
-### 
+
+## References
+A good introduction in biological mechanisms underlying brain functions
+Nicolls J.G. et.al. From Neuron to Brain, 5th edition.
+
+Recent advances of neuromorphic hardware are reviewed in:
+Davies, M., Wild, A., Orchard, G., Sandamirskaya, Y., Guerra, G. A. F., Joshi, P., ... & Risbud, S. R. (2021). Advancing neuromorphic computing with Loihi: A survey of results and outlook. Proceedings of the IEEE, 109(5), 911-934.
+
+### Models of biological neurons and networks
+1.  W. Gerstner, W.M. Kistler, R. Naud and L. Paninski Neuronal Dynamics. Online book: http://neuronaldynamics.epfl.ch/online/
+2. Izhikevich, E. M. (2003). Simple model of spiking neurons. IEEE Trans. on Neur. Networks
+3. Eugene M. Izhikevich (2006), Scholarpedia, 1(3):1300. http://www.scholarpedia.org/article/Bursting
+4. Brunel, N., & Hakim, V. (1999). Fast global oscillations in networks of integrate-and-fire neurons with low firing rates. Neural computation, 11(7), 1621-1671.
+
+### Neuromorphic control
+1. Russell, A., Orchard, G., & Etienne-Cummings, R. (2007, May). Configuring of spiking central pattern generator networks for bipedal walking using genetic algorthms. In 2007 IEEE International Symposium on Circuits and Systems (pp. 1525-1528). IEEE.
+2. Knüsel, J. et.al. (2020). Reproducing five motor behaviors in a salamander robot with virtual muscles and a distributed CPG controller regulated by drive signals and proprioceptive feedback. Frontiers in neurorobotics, 14.
+3. Stagsted, R., Vitale, A., Binz, J., Bonde Larsen, L., & Sandamirskaya, Y. (2020, July). Towards neuromorphic control: A spiking neural network based PID controller for UAV. RSS.
+
+### Learning
+1. Sjöström J. and Gerstner W. (2010), Scholarpedia, 5(2):1362. http://www.scholarpedia.org/article/STDP
+2. Izhikevich, E. M. (1999). Weakly pulse-coupled oscillators, FM interactions, synchronization, and oscillatory associative memory. IEEE Transactions on Neural Networks, 10(3), 508-526.
